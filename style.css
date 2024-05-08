@@ -73,11 +73,12 @@ body{
     font-size: .9em;
     margin-left: 10px;
 }
-.container:has(.title:active){
-        
+.container:has(.title:active){  
         box-shadow: 10px 10px black;   
 }
 .title:active{
-    color: hsl(47, 88%, 63%);
-        cursor: pointer;
+    color: hsl(47, 88%, 63%);  
+}
+.title:hover{
+    cursor: pointer;
 }
